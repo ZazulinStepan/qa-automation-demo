@@ -21,7 +21,7 @@ class UserServiceTest {
     @InjectMocks
     private UserService userService;
 
-    @Test
+    @Test ///test
     void shouldGetUserById() {
 
         User user = new User("Test User", "test@example.com");
